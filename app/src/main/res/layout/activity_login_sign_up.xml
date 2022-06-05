@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_green"
+    tools:context=".Login_SignUp">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="@font/roboto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_1"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_txt"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginVertical="100dp"
+        app:lottie_rawRes="@raw/login" />
+
+    <LinearLayout
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/b2lyout"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_btn_t1"
+            android:layout_height="match_parent"
+            android:text="@string/signin"
+            android:textColor="@color/black"
+            android:elevation="4dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="35dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/b2lyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="120dp">
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_btn_t2"
+            android:layout_height="match_parent"
+            android:text="@string/signup"
+            android:elevation="4dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="35dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

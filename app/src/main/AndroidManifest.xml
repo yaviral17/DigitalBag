@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sudoavi.digitalbag" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/dgbag_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/dgbag_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DigitalBag"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="$com.sudoavi.digitalbag.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+            </provider>
+        <activity
+            android:name=".NoteViewPage"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar"/>
+        <activity
+            android:name=".UploadNotes"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".PasswordReset"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".Login_SignUp"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalBagNoBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DigitalBagNoBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

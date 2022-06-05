@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/drawable-v24/ic_baseline_note_24.xml" value="0.2245" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_home.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_login.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_login_sign_up.xml" value="0.25" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_main.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_note_view_page.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_password_reset.xml" value="0.3567708333333333" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_pdfviewer.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_sign_up.xml" value="0.3567708333333333" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/activity_upload_notes.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/layout/subject_view.xml" value="0.37083333333333335" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/mipmap-anydpi-v26/digitalBag_logo.xml" value="0.2245" />
+        <entry key="..\:/Myfuture/AndroidApps/DigitalBag/app/src/main/res/xml/provider_paths.xml" value="0.19114583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

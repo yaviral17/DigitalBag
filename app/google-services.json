@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "153882315146",
+    "project_id": "digitalbag-91598",
+    "storage_bucket": "digitalbag-91598.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153882315146:android:33957e1bfb259ed86ca073",
+        "android_client_info": {
+          "package_name": "com.sudoavi.digitalbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153882315146-icepo99uebt6jjioeo17evuh73r42b2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudoavi.digitalbag",
+            "certificate_hash": "af76967d9aab279e5abd5cd24f3d857fc153b7f4"
+          }
+        },
+        {
+          "client_id": "153882315146-t3n5e1j96sb8oide6935456k1ggd99i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfHQif68tLV3_7WO2djK7rvyavhmryqVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153882315146-t3n5e1j96sb8oide6935456k1ggd99i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
